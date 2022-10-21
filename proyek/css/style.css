@@ -1,0 +1,383 @@
+/* --------- TAGS SELECTORS --------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  max-height: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+header {
+  background-image: url(https://ik.imagekit.io/0ysnbn7br/images/5_x-0XsOnuW.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1666334057254);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  max-height: 100vh;
+  height: 100vh;
+}
+
+main {
+  background-image: url(../assets/kangaroo.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  max-height: 100vh;
+  height: 100vh;
+  /*overflow: hidden;*/
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 50px 0 50px;
+  align-items: center;
+}
+
+nav img {
+  width: 250px;
+  align-items: center;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  padding: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-image: url(https://ik.imagekit.io/0ysnbn7br/bird_4BBb9uT5J.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666334057896);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  max-height: 100vh;
+  height: 100vh;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.icons {
+  position: absolute;
+  bottom: 40px;
+}
+/* --------- STYLE TEMPLATE --------- */
+.line-height {
+  line-height: 1;
+}
+
+.paddingh1 {
+  padding: 30px;
+}
+
+.paddingh2{
+  padding: 30px 0 0 0;
+}
+
+.paddingh2-left{
+  font-size: 40px;
+  padding: 30px 0 0 30px;
+  text-align: left;
+}
+
+.paddingh3 {
+  padding: 10px;
+}
+
+.padding {
+  padding: 7px;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.primary-color {
+  color: #e1dfe0;
+}
+
+.secondary-color {
+  color: #e1dfe0;
+}
+
+.p-color {
+  color: #FFFFFF;
+}
+
+/* --------- CLASS SELECTORS --------- */
+.contact {
+  height: 100vh;
+  max-height: 100vh;
+  text-align: center;
+}
+
+.title {
+  position: relative;
+  top: 90px;
+  left: 50px;
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  text-align: center;
+  justify-content: center;
+}
+
+.inline-padding {
+  padding: 0 5px;
+}
+
+.left {
+  flex: 2;
+  position: relative;
+  height: 100vh;
+  text-align: center;
+}
+
+.right {
+  flex: 1;
+  position: relative;
+  height: 100vh;
+  text-align: center;
+}
+
+.right ul li {
+  list-style: none;
+}
+
+.pp {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.pp img {
+  padding-top: 10px;
+  position: relative;
+  width: 150px;
+}
+
+.icons {
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.copyright {
+  bottom: 10px;
+}
+
+.icon-size {
+  padding: 0 40px;
+}
+
+.icons img {
+  width: 30px;
+}
+
+.image-box {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  background-color: white;
+}
+
+.image-box img {
+  object-fit: cover;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.button-left {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  margin: 0;
+  width: 100px; /* Need a specific value to work */
+}
+
+.button-right {
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  margin: 0;
+  width: 100px; /* Need a specific value to work */
+}
+
+.btn-style {
+  font-size: 50px;
+  border: none;
+  background: none;
+  border-style: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  color: white;
+  width: 200px;
+  user-select: none;
+}
+
+/* --------- ID SELECTORS --------- */
+#main-title {
+  margin: 0;
+  font-size: 71px;
+  color: #e1dfe0;
+  /*
+  background: -webkit-linear-gradient(#FFFFFF, #514b4b);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;*/
+}
+
+#main-quote {
+  margin: 0;
+  font-size: 39px;
+  color: #8b8883;
+  /*
+  background: -webkit-linear-gradient(#514b4b, #FFFFFF);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;*/
+}
+
+#author {
+  font-size: 25px;
+  color: #514d4c;
+}
+
+#gallery {
+  color: #e1dfe0;
+}
+
+
+/* ------------- MEDIA QUERY -------------*/
+@media(max-width: 1000px) {
+
+  header {
+    width: 100%;
+    height: 100vh;
+  }
+
+
+  nav {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    padding: 0;
+  }
+
+  .img-responsive {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: 7% 0 0 0;
+  }
+
+  .nav-responsive {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  #main-title {
+    margin: 0;
+    font-size: 35px;
+    color: #e1dfe0;
+    /*
+    background: -webkit-linear-gradient(#FFFFFF, #514b4b);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;*/
+  }
+
+  #main-quote {
+    margin: 0;
+    font-size: 17px;
+    color: #8b8883;
+    /*
+    background: -webkit-linear-gradient(#514b4b, #FFFFFF);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;*/
+  }
+
+  #author {
+    font-size: 12px;
+    color: #514d4c;
+  }
+
+  #gallery h2 {
+    font-size: 20px;
+  }
+
+  .title {
+    position: relative;
+    top: 50%;
+    left: 50px;
+    display: inline-block;
+  }
+
+  main {
+    width: 100%;
+    height: 100%;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  aside li {
+    font-size: 13px;
+  }
+
+}
